@@ -12,7 +12,6 @@ import com.nf.shopproject.service.CategoryService;
 
 @WebServlet("/admin/category/insert")
 public class CategoryInsertServlet extends BaseServlet{
-
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		//req.setCharacterEncoding("UTF-8");
