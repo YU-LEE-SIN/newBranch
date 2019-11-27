@@ -14,6 +14,7 @@ import com.nf.shopproject.service.StoreService;
 
 @WebServlet("/admin/product/category")
 public class CategoryIndexServlet extends BaseServlet{
+
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		StoreService storeService=new StoreService();
